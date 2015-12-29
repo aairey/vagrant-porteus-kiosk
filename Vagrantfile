@@ -70,7 +70,7 @@ Vagrant.configure(2) do |config|
   # SHELL
   
   # cutom stuff
-  config.vm.box = "aairey/porteus-kiosk"
+  #config.vm.box = "aairey/porteus-kiosk"
 
   config.ssh.username = "root"
   config.ssh.password = "test"
