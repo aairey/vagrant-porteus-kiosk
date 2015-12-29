@@ -6,9 +6,9 @@ This is a Vagrantfile to start a preconfigured Porteus Kiosk 3.6 client.
 
 The box is available through [Atlas](https://atlas.hashicorp.com/aairey/porteus-kiosk), you can start using it by running:
 
-'''
+```
 vagrant init aairey/porteus-kiosk; vagrant up --provider=virtualbox
-'''
+```
 Currently only VirtualBox is supported.
 
 ## Notes
