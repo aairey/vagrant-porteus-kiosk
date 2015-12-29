@@ -17,6 +17,8 @@ The Setup Wizard is already run with the defaults and following selections made:
 * Firefox as browser
 ** No Location Bar
 * No HTTP Proxy
+* VNC Server running
+* SSH enable, root password is "test"
 
 This repository may not seem of much use now, but in the future I hope to make and track changes here.
 
