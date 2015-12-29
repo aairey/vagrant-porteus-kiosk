@@ -9,7 +9,7 @@ This is a Vagrantfile to start a preconfigured Porteus Kiosk 3.6 client.
 You can use the Vagrantfile from this repo as follows.
 
 ```
-git clone 
+git clone https://github.com/aairey/vagrant-porteus-kiosk.git
 vagrant up --provider=virtualbox
 vagrant ssh
 ```
