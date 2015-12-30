@@ -2,25 +2,20 @@
 
 This is a Vagrantfile to start a preconfigured Porteus Kiosk 3.6 client.
 
-## Usage
+## Prerequisites
 
-### This Vagrantfile
+You need the following application installed on your system:
+
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [vagrant](https//www.vagrantup.com/)
+
+## Usage
 
 You can use the Vagrantfile from this repo as follows.
 
 ```
 git clone https://github.com/aairey/vagrant-porteus-kiosk.git
 vagrant up --provider=virtualbox
-vagrant ssh
-```
-The default root password is "test".
-
-### Through Atlas
-
-The box is also available through [Atlas](https://atlas.hashicorp.com/aairey/porteus-kiosk), you can start using it by running:
-
-```
-vagrant init aairey/porteus-kiosk; vagrant up --provider=virtualbox
 vagrant ssh
 ```
 The default root password is "test".
